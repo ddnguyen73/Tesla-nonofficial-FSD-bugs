@@ -7,23 +7,11 @@ assignees: ''
 
 ---
 
-### Feature ID:
-[ID]
+### [Feature ID]:
 
-### Feature Name:
-[Name]
+### [Description]:
 
-### Description:
-[Description]
+### [Priority]:
 
-### Priority:
-[Priority]
+### [Required4RoboTaxi]:
 
-### Required for Release Testing:
-[Required4RT]
-
-### Status:
-[Status]
-
-### Comments:
-[Comments]
