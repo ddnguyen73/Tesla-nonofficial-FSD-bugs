@@ -5,13 +5,12 @@ title: ''
 labels: ''
 assignees: ''
 
----
+[Feature ID]:
 
-### [Feature ID]:
+[Description]:
 
-### [Description]:
+[Priority]:
 
-### [Priority]:
-
-### [Required4RoboTaxi]:
+### Required for RoboTaxi
+[Required4RT]:
 
