@@ -1,0 +1,470 @@
+[
+  {
+    "Features": "Lane Following",
+    "ID": 1,
+    "Description": "Ego shall be able to stay within the designated lanes, follow the curvature of the road, and adjust speed to match traffic conditions.",
+    "Priority": 1,
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Intersection Management",
+    "ID": 2,
+    "Description": "Ego shall be capable of navigating intersections, including making turns, merging, and yielding to oncoming traffic, while following traffic rules and signals.",
+    "Priority": 1,
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Traffic Sign Recognition",
+    "ID": 3,
+    "Description": "Ego shall be able to identify and interpret traffic signs, including speed limits, stop signs, yield signs, and other regulatory signs.",
+    "Priority": 1,
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Traffic Light Recognition and Response",
+    "ID": 4,
+    "Description": "Ego shall be capable of recognizing traffic lights, determining their status (red, green, or yellow), and responding accordingly by stopping, accelerating, or maintaining speed.",
+    "Priority": 1,
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Cyclist Detection",
+    "ID": 5,
+    "Description": "Ego shall be able to detect cyclists on the road, anticipate their movements, and take appropriate actions to ensure their safety.",
+    "Priority": 1,
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Highway Driving",
+    "ID": 6,
+    "Description": "Ego shall be able to handle high-speed driving on highways, including changing lanes, maintaining safe distances from other vehicles, and merging onto and exiting from highways.",
+    "Priority": 1,
+    "Required4RT": "",
+    "Status": "",
+    "Comments": "Basic speed law isn't supported without driver intervention"
+  },
+  {
+    "Features": "Overtaking",
+    "ID": 7,
+    "Description": "Ego shall be capable of safely overtaking slower-moving vehicles when it is necessary and allowed.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Parking",
+    "ID": 8,
+    "Description": "Ego shall be able to navigate parking lots, parallel park, and perform other parking maneuvers safely and accurately.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Adverse Weather Conditions",
+    "ID": 9,
+    "Description": "Ego shall be able to handle various adverse weather conditions, such as rain, snow, fog, or glare, by adjusting its driving behavior and maintaining appropriate speed and distance.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Construction Zones",
+    "ID": 10,
+    "Description": "Ego shall be able to navigate through construction zones, which may involve temporary changes in traffic patterns, detours, or reduced lane widths.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Emergency Situations",
+    "ID": 11,
+    "Description": "Ego shall be capable of responding to emergency situations, such as sudden obstacles on the road, emergency vehicles, or unexpected road closures.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Roundabouts",
+    "ID": 12,
+    "Description": "Ego shall be able to navigate roundabouts by entering and exiting the traffic circle safely while yielding to other vehicles already in the roundabout.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "School Zones",
+    "ID": 13,
+    "Description": "Ego shall be able to recognize and adjust its speed accordingly in school zones, where lower speed limits are typically enforced during specific hours.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Rural and Urban Driving",
+    "ID": 14,
+    "Description": "Ego shall be able to adapt its driving behavior to both rural and urban environments, taking into account factors such as varying road conditions, different traffic densities, and pedestrian activity.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Left-hand and Right-hand Traffic",
+    "ID": 15,
+    "Description": "Ego shall be able to adapt to both left-hand and right-hand traffic systems, as different countries have different traffic flow norms.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Country-Specific Road Rules",
+    "ID": 16,
+    "Description": "Ego shall be able to understand and follow country-specific road rules, such as priority rules at roundabouts, right of way, and specific regulations unique to certain regions.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Uncontrolled Intersections",
+    "ID": 17,
+    "Description": "Ego shall be able to handle uncontrolled intersections where there are no traffic lights or stop signs, and determine the right-of-way based on other vehicles' movements.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Narrow and Winding Roads",
+    "ID": 18,
+    "Description": "Ego shall be able to navigate narrow and winding roads commonly found in rural or mountainous areas, adjusting its speed and trajectory accordingly.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Pedestrian",
+    "ID": 19,
+    "Description": "Ego shall detect and respond to pedestrian crossings, including marked crosswalks and unmarked crossings, ensuring the safety of pedestrians. Ego shall detect and respond to unpredictable pedestrian behavior, such as jaywalking or sudden movements, by adjusting its speed and trajectory to ensure pedestrian safety.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Negotiating Traffic Jams",
+    "ID": 20,
+    "Description": "Ego shall be able to navigate through congested traffic, including stop-and-go situations, lane filtering, and handling complex merging scenarios.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Handling Emergency Vehicles",
+    "ID": 21,
+    "Description": "Ego shall respond appropriately when emergency vehicles, such as ambulances, fire trucks, or police cars, are approaching with sirens and lights on, yielding the right-of-way and making way for them.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Roundabouts and Traffic Circles",
+    "ID": 22,
+    "Description": "Ego shall be able to handle various types of roundabouts and traffic circles, including single-lane and multi-lane configurations, by entering, circulating, and exiting safely while following traffic rules and yielding when necessary.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Interacting with Human Drivers",
+    "ID": 23,
+    "Description": "Ego shall be able to anticipate and react to the behavior of human drivers on the road, including predicting their intentions, interpreting hand signals, and responding to unexpected actions or errors made by human drivers and aggressive drivers.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Cooperative Driving",
+    "ID": 24,
+    "Description": "Ego shall be able to communicate and cooperate with other vehicles on the road, including negotiating right-of-way, merging lanes, and coordinating maneuvers in complex driving situations.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Toll Booths and Toll Roads",
+    "ID": 25,
+    "Description": "Ego shall be capable of navigating toll booths and toll roads, including stopping to pay tolls, using electronic toll collection systems, or accessing designated toll lanes.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Understanding Local Driving Culture",
+    "ID": 26,
+    "Description": "Ego shall have knowledge of the local driving culture and adapt its driving behavior accordingly, such as accommodating driving customs, following unwritten rules, and understanding local road etiquette.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "International Driving Regulations",
+    "ID": 27,
+    "Description": "Ego shall be aware of and comply with international driving regulations and standards, especially when operating in countries with specific requirements for autonomous vehicles.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Community Gates",
+    "ID": 28,
+    "Description": "Ego shall be able to approach and pass through community gates that require specific access permissions or passes, such as gated residential communities, parking lots, or restricted areas.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Bridges and Tunnels",
+    "ID": 29,
+    "Description": "Ego shall be able to navigate various types of bridges and tunnels, including those with different heights, lane configurations, or toll requirements.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Toll roads exits and entrances",
+    "ID": 30,
+    "Description": "Ego shall successfully enter and exit toll roads , or expressways, following the correct exit/entrance lanes and merging smoothly with the flow of traffic.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Ferries and Water Crossings",
+    "ID": 31,
+    "Description": "Ego shall handle situations where it needs to board a ferry or navigate through water crossings, ensuring proper vehicle alignment and securing the vehicle during transport.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Parking Garages",
+    "ID": 32,
+    "Description": "Ego shall be capable of maneuvering within multi-level parking garages, including finding available parking spots, navigating ramps, and avoiding obstacles or pedestrians.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Drive-Thru Services",
+    "ID": 33,
+    "Description": "Ego shall be able to interact with drive-thru services, valet dropoffs, such as drive-thru restaurants or banks, by approaching designated areas, placing orders, making transactions, and receiving items.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Service Stations",
+    "ID": 34,
+    "Description": "Ego shall be able to navigate to and park at service stations for refueling, recharging, or maintenance purposes, following any specific guidelines or procedures required at the station.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Roadside Assistance",
+    "ID": 35,
+    "Description": "In the event of a breakdown or emergency,Ego shall be capable of initiating and interacting with roadside assistance services, such as contacting service providers, providing location information, and following instructions for safe vehicle recovery.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Border Crossings",
+    "ID": 36,
+    "Description": "Ego shall be able to handle border crossings, including following customs procedures, presenting necessary documentation, and complying with immigration and customs regulations.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Roadway Obstacles",
+    "ID": 37,
+    "Description": "Ego shall be able to identify and navigate around or over various roadway obstacles, such as potholes, debris, speed bumps, or road work zones.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Pedestrian Zones",
+    "ID": 38,
+    "Description": "Ego shall recognize and appropriately handle designated pedestrian zones or streets with limited or restricted vehicle access, adjusting speed and yielding to pedestrians when required.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "School Zones and Bus Stops",
+    "ID": 39,
+    "Description": "Ego shall be able to recognize school zones, obey reduced speed limits, and safely navigate near school areas and bus stops, prioritizing the safety of children.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Wildlife Crossings",
+    "ID": 40,
+    "Description": "In areas prone to wildlife crossings,Ego shall be capable of detecting and appropriately responding to wildlife on or near the roadway, ensuring the safety of both the vehicle occupants and the animals.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Railroad Crossings",
+    "ID": 41,
+    "Description": "Ego shall be able to detect and safely navigate railroad crossings, accurately identifying the presence of trains, interpreting warning signs and signals, and determining the appropriate actions such as stopping, yielding, or proceeding when it is safe to do so.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Emergency Vehicle Interactions",
+    "ID": 42,
+    "Description": "Ego shall be capable of responding to emergency vehicles approaching from behind, including fire trucks, ambulances, or police cars, by safely yielding and creating a path for them to pass.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Construction Zones",
+    "ID": 43,
+    "Description": "Ego shall be able to navigate through construction zones, adhering to reduced speed limits, following detour signs, and adjusting its trajectory to accommodate temporary changes in road layout or lane closures.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Roadside Workers",
+    "ID": 44,
+    "Description": "When passing through areas where roadside workers are present, such as construction sites or maintenance zones,Ego shall exercise caution, maintain a safe speed, and provide adequate space for workers' safety.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Low-Visibility Conditions",
+    "ID": 45,
+    "Description": "Ego shall be capable of handling low-visibility conditions, including fog, heavy rain, or snow, by adapting its speed, adjusting its perception capabilities, and making appropriate decisions to ensure safety.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Merging and Lane Changing",
+    "ID": 46,
+    "Description": "Ego shall be able to merge into traffic smoothly when entering highways or changing lanes, signaling appropriately, and considering the speed and position of other vehicles.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Narrow Streets and Alleys",
+    "ID": 47,
+    "Description": "Ego shall be capable of navigating narrow streets, alleys, or residential areas, adjusting its speed, and making accurate maneuvers to avoid obstacles or parked vehicles.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Adverse Weather Conditions",
+    "ID": 48,
+    "Description": "Ego shall be able to adapt its driving behavior to adverse weather conditions such as ice, heavy rain, or strong winds, ensuring appropriate handling and maintaining safe control of the vehicle.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Off-Road and Unpaved Surfaces",
+    "ID": 49,
+    "Description": "In cases where the EV encounters off-road or unpaved surfaces, such as gravel roads or dirt paths, Ego shall be able to adapt its driving behavior, adjusting its speed and stability control to maintain traction and stability.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Evacuation/special event Routes",
+    "ID": 50,
+    "Description": "Ego shall be capable of following designated evacuation/planned routes (in large lots) during emergency situations, ensuring efficient navigation and prioritizing the safety of the vehicle occupants.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Hilly or Mountainous Terrain",
+    "ID": 51,
+    "Description": "Ego shall be able to navigate hilly or mountainous terrain, adjusting its speed, braking, and acceleration to safely handle steep inclines and declines.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  },
+  {
+    "Features": "Restricted Access Zones",
+    "ID": 52,
+    "Description": "In areas with restricted access, such as pedestrian-only zones, bus lanes, or car-free zones,Ego shall recognize and comply with the restrictions, adjusting its route and speed accordingly.",
+    "Priority": "",
+    "Required4RT": "",
+    "Status": "",
+    "Comments": ""
+  }
+]
